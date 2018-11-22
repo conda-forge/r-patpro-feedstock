@@ -14,9 +14,9 @@ source:
   sha256: d63bfb2a673000b285d5e7106597c8fc148509461bf047f48ecf553ae933d8d0
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,8 +50,7 @@ about:
   summary: Quickly and easily visualize longitudinal microbiome profiles using standard output
     from the QIIME microbiome analysis toolkit (see <http://qiime.org> for more information).
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
