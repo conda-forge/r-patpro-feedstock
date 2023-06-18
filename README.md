@@ -1,11 +1,11 @@
-About r-patpro
-==============
+About r-patpro-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-patpro-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=patPRO
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-patpro-feedstock/blob/main/LICENSE.txt)
 
 Summary: Quickly and easily visualize longitudinal microbiome profiles using standard output from the QIIME microbiome analysis toolkit (see <http://qiime.org> for more information).
 
